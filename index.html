@@ -3,9 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mon Portfolio de Data Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .project-description {
+            margin-top: 10px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <H1>MON PORTFOLIO</H1>
+    <header>
+        <h1>MON PORTFOLIO DE DATA ANALYST</h1>
+        <p>Bienvenue sur mon portfolio de projets et d'analyses de données</p>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>À propos de moi</h2>
+            <p>Je suis un Data Analyst passionné par l'analyse de données, la visualisation et le machine learning. Mon objectif est de transformer les données en informations exploitables pour prendre des décisions éclairées.</p>
+        </section>
+
+        <section class="projects">
+            <h2>Mes Projets</h2>
+
+            <div class="project">
+                <h3>Analyse des Ventes</h3>
+                <img src="sales-analysis.png" alt="Analyse des ventes">
+                <p class="project-description">Analyse des données de vente pour identifier les tendances saisonnières et optimiser les stratégies de vente.</p>
+                <a href="#" class="btn">Voir le projet</a>
+            </div>
+
+            <div class="project">
+                <h3>Prédiction des Prix Immobiliers</h3>
+                <img src="real-estate-prediction.png" alt="Prédiction des prix immobiliers">
+                <p class="project-description">Utilisation de modèles de machine learning pour prédire les prix des maisons en fonction de diverses caractéristiques.</p>
+                <a href="#" class="btn">Voir le projet</a>
+            </div>
+
+            <div class="project">
+                <h3>Analyse de Données Clients</h3>
+                <img src="customer-analysis.png" alt="Analyse de données clients">
+                <p class="project-description">Analyse approfondie des comportements clients pour améliorer la rétention et la satisfaction.</p>
+                <a href="#" class="btn">Voir le projet</a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Pour toute question ou collaboration, n'hésitez pas à me contacter à l'adresse suivante :</p>
+            <p><strong>Email :</strong> mon.email@example.com</p>
+            <p>Retrouvez-moi également sur <a href="https://www.linkedin.com" class="btn">LinkedIn</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mon Nom. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
