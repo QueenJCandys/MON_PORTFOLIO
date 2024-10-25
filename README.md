@@ -106,7 +106,7 @@ Consultant Data Analyst en mission dans l’ONG DWFA (Drinking Water For All) ; 
 Créer un rapport **Power BI** d'au moins 3 pages. Les données sources ont été prétraitées à l'aide de **Power Query**. Il fallait également créer un *blueprint* synthétisant les fontionnalités du rapport ainsi qu'un *mock-up* reprenant le visuel des futures pages en basse définition.
 
 
-## [Projet 9 : Produisez une étude de marché avec Python (en cours)]
+## Projet 9 : Produisez une étude de marché avec Python (en cours)
 
 ### &#127891; Compétences acquises
 * Effectuer un clustering simple.
@@ -121,4 +121,6 @@ Les données utilisées sont issues des [statistiques de la *Food and Agricultur
 * Réaliser le *clustering* des pays grâce à la classification ascendante hiérarchique (CAH) et à la méthode des k-means puis réaliser une analyse en composantes principales (ACP) dans un second *notebook*.
 
 
-##[Projet 10 : Détectez des faux billets avec Python (Non commencer)]
+## Projet 10 : Détectez des faux billets avec Python (Non commencer)
+
+
