@@ -18,28 +18,7 @@ Ce dépôt contient une partie des projets réalisés dans le cadre du parcours 
 |SQLite             |          |         |         |         |         |         |         |&#10003; |
 |Power Query        |          |         |&#10003; |         |         |         |         |&#10003; |
 
-## [Projet 10 : Détectez des faux billets avec Python](./Détecteur_de_faux_billet/)
-
-### &#127891; Compétences acquises
-* Réaliser une régression linéaire.
-* Opérer des classifications automatiques pour partitionner les données.
-* Réaliser une analyse prédictive.
-* Réaliser une régression logistique.
-* Réaliser une classification kNN et k-means.
-* Réaliser un arbre de décision et une forêt aléatoire.
-* Utiliser des méthodes ensemblistes (*Bagging* et *Boosting*).
-* Optimiser un modèle avec `GridSearchCV`.
-* Valider un modèle avec la validation croisée.
-
-### &#128203; Scénario
-En tant que consultant *Data Analyst* nous effectuons une prestation en régie au sein de l’**Organisation nationale de lutte contre le faux-monnayage (ONCFM)**. Cette institution a pour objectif de mettre en place des méthodes d’identification des contrefaçons des billets en euros.
-
-### &#127919; Objectifs
-* Préparer et analyser les données comprenant les caractéristiques dimensionnelles des billets en fonction de leur authenticité.
-* Explorer différentes solutions pour la mise en place de l'algorithme et retenir le modèle le plus adapté.
-* Tester notre algorithme sur de nouvelles données.
-
-## [Projet 9 : Produisez une étude de marché avec Python](./Etude_de_marché/)
+## [Projet 9 : Produisez une étude de marché avec Python (en cours)]
 
 ### &#127891; Compétences acquises
 * Effectuer un clustering simple.
@@ -53,7 +32,7 @@ Nous sommes en poste chez **La poule qui chante**, une entreprise française d�
 Les données utilisées sont issues des [statistiques de la *Food and Agriculture Organization of the United Nations (FAO)*](https://www.fao.org/faostat/fr/#home). Elles nous permettront de définir les critères de l'analyse. Ces critères, seront appelés **indicateurs** dans la suite de l'étude.
 * Réaliser le *clustering* des pays grâce à la classification ascendante hiérarchique (CAH) et à la méthode des k-means puis réaliser une analyse en composantes principales (ACP) dans un second *notebook*.
 
-## [Projet 8 : Faites une étude sur l'eau potable avec Power BI](./Etude_sur_l'eau_potable/)
+## [Projet 8 : Faites une étude sur l'eau potable avec Power BI](https://github.com/QueenJCandys/MON_PORTFOLIO/tree/main/Projet%208%20-%20Faites%20une%20%C3%A9tude%20sur%20l'eau%20potable)
 
 ### &#127891; Compétences acquises
 * Synthétiser des résultats à destination d'un client.
