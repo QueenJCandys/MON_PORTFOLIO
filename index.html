@@ -3,208 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Data Analyst</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Section 1 : En-tête avec l'image de fond et le titre -->
-    <header class="hero">
-        <div class="overlay">
-            <h1>Bienvenue sur mon Portfolio</h1>
+    <!-- Section d'accueil avec image de fond -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bienvenue sur mon portfolio</h1>
         </div>
-    </header>
+    </section>
 
-    <!-- Section 2 : Présentation -->
-    <section class="about">
+    <!-- Section À propos de moi -->
+    <section id="about">
         <h2>À propos de moi</h2>
-        <p>Je suis Data Analyst passionné par l'analyse des données et la prise de décisions basées sur les données. Mon parcours m'a permis de développer des compétences en analyse statistique, visualisation de données, et en automatisation de processus.</p>
+        <p>Texte à ajouter ici pour décrire votre parcours et vos compétences.</p>
     </section>
 
-    <!-- Section 3 : Frise verticale des Projets -->
-    <section class="projects">
-        <h2>Mes Projets</h2>
-        <div class="project-timeline">
-            <!-- Projet 3 -->
-            <div class="project-card">
-                <div class="check-icon">
-                    <i class="fas fa-check"></i>
-                </div>
-                <a href="projet3.html">
-                    <img src="image1.jpg" alt="Projet 3">
-                    <h3>Créer et utiliser une base de données immobilière avec SQL</h3>
-                </a>
-                <p>🎓 Compétences acquises : Mettre à jour un catalogue de données, Créer des tables, etc.</p>
-                <p>📋 Scénario : Nous sommes Data Analyst chez Laplace Immo...</p>
-                <p>🎯 Objectifs : Créer un dictionnaire des données...</p>
-            </div>
-
-            <section class="projects">
-    <h2>Mes Projets - OpenClassrooms</h2>
-    <p>Voici une sélection de mes projets réalisés dans le cadre de ma formation de Data Analyst à OpenClassrooms, durant une année. Chaque projet est une démonstration de mes compétences en analyse de données et en résolution de problématiques métier.</p>
-
-    <div class="project-timeline">
-        <!-- Projet 3 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 3 : Créez et utilisez une base de données immobilière avec SQL</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Mettre à jour un catalogue de données, Créer des tables, Effectuer des requêtes SQL...</p>
-                <h4>📋 Scénario</h4>
-                <p>Nous sommes Data Analyst chez Laplace Immo, un réseau national d’agences immobilières...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Créer le dictionnaire des données et le schéma relationnel normalisé...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
+    <!-- Section Mes projets -->
+    <section id="projects">
+        <h2>Mes projets</h2>
+        <div class="project-item">
+            <h3>Projet 1</h3>
+            <p>Description du projet 1.</p>
         </div>
-
-        <!-- Projet 4 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 4 : Réaliser une étude de santé publique</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Rédiger et présenter une méthodologie d'exploration, Manipuler des DataFrames...</p>
-                <h4>📋 Scénario</h4>
-                <p>Nous intervenons en tant que Data Analyst au sein d'une équipe de chercheurs de l'ONU...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Réaliser une étude sur la sous-nutrition et livrer nos analyses...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 5 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 5 : Optimiser la gestion des données d'une boutique</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Gérer les erreurs et les incohérences sur des données, Classifier différents types de données...</p>
-                <h4>📋 Scénario</h4>
-                <p>Mission freelance chez BottleNeck, un marchand de vin prestigieux...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Obtenir un jeu de données cohérent à partir des fichiers fournis...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 6 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 6 : Analyser les ventes d'une librairie avec Python</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Réaliser un test statistique, Analyser des séries temporelles...</p>
-                <h4>📋 Scénario</h4>
-                <p>Consultant chez Lapage, une librairie en ligne...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Réaliser une analyse complète des ventes en ligne...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 7 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 7 : Analysez des indicateurs de l'égalité femme-homme avec Knime</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Transférer des données, Préparer des données pour l'analyse...</p>
-                <h4>📋 Scénario</h4>
-                <p>Consultant dans un cabinet de conseil spécialisé...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Créer un workflow Knime pour automatiser le rapport sur l'égalité professionnelle...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 8 -->
-        <div class="project-card">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 8 : Étude sur l'eau potable avec Power BI</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Synthétiser des résultats, Créer un tableau de bord...</p>
-                <h4>📋 Scénario</h4>
-                <p>Consultant pour l’ONG DWFA...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Créer un rapport Power BI détaillé sur l'accès à l'eau potable...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 9 (En cours) -->
-        <div class="project-card in-progress">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 9 : Étude de marché avec Python (En cours)</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Effectuer un clustering, Explorer des données...</p>
-                <h4>📋 Scénario</h4>
-                <p>Mission pour La poule qui chante...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Réalisé un clustering pour cibler des pays...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-
-        <!-- Projet 10 (Non commencé) -->
-        <div class="project-card not-started">
-            <div class="check-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <div class="project-details">
-                <h3 class="project-title">Projet 10 : Détecter des faux billets avec Python (Non commencé)</h3>
-                <h4>🎓 Compétences acquises</h4>
-                <p>Analyser des transactions...</p>
-                <h4>📋 Scénario</h4>
-                <p>Projet pour identifier des faux billets...</p>
-                <h4>🎯 Objectifs</h4>
-                <p>Détecter des anomalies dans les billets...</p>
-            </div>
-            <div class="arrow-container">
-                <i class="fas fa-arrow-down"></i>
-            </div>
-        </div>
-    </div>
-</section>
-
-        </div>
+        <!-- Ajouter d'autres projets ici -->
     </section>
 
-    <footer>
-        <p>© 2024 Data Analyst Portfolio</p>
-    </footer>
-
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contactez-moi par email ou via les réseaux sociaux.</p>
+    </section>
 </body>
 </html>
